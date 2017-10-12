@@ -1,20 +1,20 @@
 # How to contribute?
 
-Our goal is build an application that some one who is moving or even selling things can easily configure it.
-You can see or open issues [here](https://github.com/anapaulagomes/to-vendendo/issues). If you have any doubts please say hi at [gitter](https://gitter.im/to-vendendo/Lobby).
+Our goal is build an application that someone who is moving or selling things can easily configure.
+You can view or open issues [here](https://github.com/anapaulagomes/to-vendendo/issues). Please say hi at [gitter](https://gitter.im/to-vendendo/Lobby) if you have any questions.
 
 ## Steps
 
 Steps to contribute:
 
-1. Look for a issue or open a new one [here](https://github.com/anapaulagomes/to-vendendo/issues) or just drop by on our [gitter](https://gitter.im/to-vendendo/Lobby)
+1. Look for a issue or open a new one [here](https://github.com/anapaulagomes/to-vendendo/issues) or just drop by our [gitter](https://gitter.im/to-vendendo/Lobby)
 2. Create a new branch with an intuitive name (thinking about the concept of [feature branch](https://martinfowler.com/bliki/FeatureBranch.html)
-3. Do amazing stuff and have fun
+3. Build amazing stuff and have fun
 4. Run tests
-5. If they are passing, you are free to commit and push
+5. If the tests pass then you are free to commit and push
 6. Open a Pull Request with a description and the issue reference
 
-Test-Driven Development is awesome to thinking about the design first and keep things simples. We recommend it.
+Test-Driven Development is awesome. Think about the design first and keep things simples. We recommend it.
 
 ## Best Pratices
 
