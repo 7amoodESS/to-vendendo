@@ -9,8 +9,9 @@ from tovendendo.users.models import User
 
 class LoginForm(form.Form):
     email = EmailField(validators=[
-                        InputRequired(),
-                        Email('This field requires a valid email address')])
+        InputRequired(),
+        Email('This field requires a valid email address')
+    ])
     password = PasswordField(validators=[InputRequired()])
 
     def get_user(self):
@@ -20,8 +21,9 @@ class LoginForm(form.Form):
 class RegistrationForm(form.Form):
     name = StringField()
     email = EmailField(validators=[
-                        InputRequired(),
-                        Email('This field requires a valid email address')])
+        InputRequired(),
+        Email('This field requires a valid email address')
+    ])
     password = PasswordField(validators=[InputRequired()])
     phone_number = TelField()
 
@@ -30,5 +32,6 @@ class RegistrationForm(form.Form):
             raise ValidationError('Email already used')
 
     def validate_phone_number(self, field):
-        if db.session.query(User).filter_by(phone_number=self.phone_number.data).count() > 0:
+        if db.session.query(User).filter_by(
+                phone_number=self.phone_number.data).count() > 0:
             raise ValidationError('Phone number already used')
